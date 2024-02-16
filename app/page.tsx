@@ -12,6 +12,7 @@ export default function LandingPage() {
       {/* Core client */}
 
       <Home />
+
     </main>
   );
 }
