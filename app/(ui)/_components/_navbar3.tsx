@@ -74,7 +74,7 @@ export default function Navbar3() {
                     // <>
                     // <NavItm href={`/ui/${x.link}`}  children={x.name}  />
                     // </>
-                    <li className="text-black">
+                    <li className="text-black" key={x.id}>
                       <Link href={x.link} onClick={() => setNavbar(!navbar)}>
                         {x.name}
                       </Link>
