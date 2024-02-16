@@ -1,1 +1,0 @@
-Testing a git clone on local machine.
